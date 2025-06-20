@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: laravel-mysql-isft38
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_DATABASE: isft38
+    volumes:
+      - dbdata:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: laravel-phpmyadmin-isft38
+    restart: unless-stopped
+    ports:
+        - "8080:80"
+    environment:
+        PMA_HOST: mysql
+        PMA_PORT: 3306
+        MYSQL_ALLOW_EMPTY_PASSWORD: yes
+
+volumes:
+  dbdata:

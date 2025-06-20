@@ -1,0 +1,173 @@
+/* formulario*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.responsive-desing{
+	display: none;
+}
+.desktop-desing{
+	display: flex;
+}
+input[type="file"] {
+    display: none;
+}
+#crear-gorra-form{
+    width: 340px; 
+    border: 2px solid rgb(0,0,0,0.2);
+}
+.custom-file-upload {
+    transition: 0.5s all;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.custom-file-upload:hover {
+    transition: 0.5s all;
+    background-color: #a0a0a0;
+}
+.admin-1{
+    background: url('../../img/betsob/fondo_admin.jpg') no-repeat center/cover;
+}
+
+
+/*----------- JQUERY PRUEBAS -----------*/
+
+
+
+
+.form_wrapper{
+	background: #fff;
+	width: 355px;
+	margin:0 auto;
+    
+    margin-bottom: 20px;
+	font-size:16px;
+}
+
+.form_wrapper header{
+	padding:20px 30px 20px 30px;
+	background-color:#444;
+	color:#fff;
+	font-size:25px;
+	border-bottom:1px solid #ddd;
+}
+
+.form_wrapper .not-display {
+	display:none;
+	background:#fff;
+}
+
+.form_wrapper .active{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+.form_wrapper input[type="text"]:focus,
+.form_wrapper input[type="password"]:focus{
+	background:#feffef;
+}
+
+.form_wrapper .bottom{
+	background-color:#444;
+	border-top:1px solid #ddd;
+	margin-top:20px;
+	clear:both;
+
+}
+
+
+.form_wrapper a.forgot{
+	float:right;
+	font-style:italic;
+	line-height:24px;
+	color:#ffa800;
+	text-shadow:1px 1px 1px #fff;
+}
+
+.form_wrapper div.remember{
+	float:left;
+	width:140px;
+	margin:20px 0px 20px 30px;
+	font-size:11px;
+}
+.form_wrapper div.remember input{
+	float:left;
+	margin:2px 5px 0px 0px;
+}
+
+.form_wrapper .siguiente{
+	font-family: "Trebuchet MS", "Myriad Pro", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 0 9px;
+	text-align: center;
+	width: 150px;
+	cursor:pointer;
+	float:right;
+	margin:15px 20px 10px 10px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.form_wrapper input[type="submit"]:hover {
+	background: #d9d9d9;
+	-moz-box-shadow: 0px 0px 2px #eaeaea inset;
+	-webkit-box-shadow: 0px 0px 2px #eaeaea inset;
+	box-shadow: 0px 0px 2px #eaeaea inset;
+	color: #222;
+}
+
+
+
+.progress {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #428bca;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: #428bca;
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+.en-comun{
+	background-color: #fff;
+	width: 355px;
+	border: 1px solid #dddddd;
+}
+@media(max-width: 400px){
+	.desktop-desing{
+		display: none;
+	}
+	.responsive-desing{
+		display: block;
+	}
+	.en-comun, .form_wrapper{
+		width: 330px;
+	}
+}

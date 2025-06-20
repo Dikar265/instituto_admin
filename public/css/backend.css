@@ -1,0 +1,87 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  font-size: small;
+}
+.centrar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+td {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+th {
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.subcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+}
+
+.horario {
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.svg {
+  padding: 15px;
+  border-radius: 70px;
+}
+
+.botonera {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+.Inicio {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+}
+
+.links {
+  padding: 25px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.form-group label {
+  outline: none;
+  margin-bottom: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border: 1px solid gray;
+  padding: 10px;
+  outline: none;
+}
+ 

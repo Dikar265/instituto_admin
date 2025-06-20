@@ -1,0 +1,248 @@
+#cabecera {
+	height: 103px;
+	width: 751px;
+	background-image: url(images/HEADER.jpg);
+	background-repeat: no-repeat;
+}
+#banner {
+	background-image: url(images/BANNER.jpg);
+	background-repeat: no-repeat;
+	height: 259px;
+	width: 751px;
+}
+#separador {
+	height: 10px;
+	width: 751px;
+}
+#cuerpo {
+	width: 751px;
+	clear: none;
+	float: none;
+}
+#cuerpo #columna_izquierda {
+	float: left;
+	width: 193px;
+	padding-left: 26px;
+}
+#cuerpo #columna_derecha {
+	float: left;
+	width: 508px;
+	margin-bottom: 10px;
+	clear: right;
+}
+
+#cuerpo #columna_izquierda #menu_cursillo {
+	background-image: url(images/MENU_CURSILLO.jpg);
+	background-repeat: no-repeat;
+	height: 189px;
+	width: 180px;
+}
+#cuerpo #columna_izquierda #menu_cursillo #titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding-top: 9px;
+	padding-left: 5px;
+}
+#cuerpo #columna_izquierda #cuadro_contacto #titulo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+#cuerpo #columna_izquierda #cuadro_contacto #direccion {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+
+#cuerpo #columna_izquierda #menu_cursillo #link_cursillos {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 3px;
+	padding-left: 7px;
+	padding-bottom: 3px;
+}
+#cuerpo #columna_izquierda #menu_cursillo #separador_cursillo {
+	height: 20px;
+}
+#cuerpo #columna_izquierda #separador_cuadro {
+	height: 10px;
+}
+#cuerpo #columna_izquierda #cuadro_contacto {
+	background-image: url(images/MENU_CONTACTO.jpg);
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 180px;
+}
+#cuerpo #columna_izquierda #cuadro_contacto #telefono {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-top: 7px;
+}
+#cuerpo #columna_izquierda #cuadro_contacto #mail {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	padding-left: 10px;
+	padding-top: 7px;
+}
+#cuerpo #columna_derecha #titulo_carrera {
+	background-image: url(images/TITULO_CARRERA.png);
+	background-repeat: no-repeat;
+	
+	height: 29px;
+	width: 930px;
+	clear: both;*/
+}
+#cuerpo #columna_derecha #titulo_carrera #info_carrera a:link, #cuerpo #columna_derecha #titulo_carrera #info_carrera a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#cuerpo #columna_derecha #titulo_carrera #info_carrera #barra_titulo {
+	background-image: url(images/TITULO_CARRERA.jpg);
+	background-repeat: no-repeat;
+	height: 29px;
+	width: 508px;
+	margin-top: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 7px;
+	padding-left: 10px;
+}
+
+#cuerpo #columna_derecha #titulo_carrera #titlo_carreras {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	padding-top: 7px;
+	padding-left: 10px;
+	height: 29px;
+}
+#cuerpo #columna_derecha #titulo_carrera #separador_car {
+	height: 10px;
+}
+#cuerpo #columna_derecha #titulo_carrera #carrera {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+#cuerpo #columna_derecha #titulo_carrera #carrera .titulo_carrera {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+#cuerpo #columna_derecha #titulo_carrera #carrera .texto_carrera {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-align: justify;
+}
+#cuerpo #columna_derecha #titulo_carrera #carrera #separador_carreras {
+	background-image: url(images/separador.jpg);
+	background-repeat: no-repeat;
+	height: 15px;
+	background-position: center center;
+}
+
+#legal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#cuerpo #columna_izquierda #menu_cursillo a:link, #cuerpo #columna_izquierda #menu_cursillo a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#cuerpo #columna_izquierda #menu_cursillo a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#menu a:link, #menu a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#menu a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: underline;
+}#cuerpo #columna_derecha #titulo_carrera #carrera a:link, #cuerpo #columna_derecha #titulo_carrera #carrera a:visited {
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+#cuerpo #columna_derecha #titulo_carrera #carrera a:hover {
+	font-size: 10px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.style2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.style3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.style5 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; }
+#cuerpo #columna_derecha #titulo_carrera #info_carrera a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: underline;
+	color: #FFFFFF;
+	font-weight: bold;
+}
